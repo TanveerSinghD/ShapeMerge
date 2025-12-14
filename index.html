@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shape Merge</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="title">
+        Shape Merge
+      </div>
+    </header>
+    <canvas id="game" width="486" height="680"></canvas>
+    <div class="hud">
+      <span id="status">Click or tap to drop a triangle.</span>
+      <div class="buttons">
+        <button id="dropBtn">Drop</button>
+        <button id="resetBtn">Restart</button>
+      </div>
+    </div>
+    <div class="notice">
+      Move your cursor (or finger) to aim. Shapes can only land inside the container. First three drops are triangles,
+      then each drop is 65% triangle, 25% square, 10% pentagon. Same shapes that touch merge instantly: triangle →
+      square → pentagon → ... up to dodecagon (12) to win.
+    </div>
+    <div class="overlay hidden" id="overlay">
+      <div class="popup">
+        <h2 id="popupTitle">Game Over</h2>
+        <p id="popupSubtitle">The stack has reached the top!</p>
+        <button id="playAgainBtn">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
