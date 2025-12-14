@@ -2,6 +2,9 @@
 
 Shape Merge is a minimalist stacking-and-merging puzzle where falling polygons combine into higher-level shapes. Aim your drops, manage bounces, and stack cleanly to reach the dodecagon to win.
 
+## Web Link
+https://tanveersinghd.github.io/ShapeMerge/
+
 ## How to Play
 - Move your cursor (or finger) to aim the drop position inside the container.
 - Click/tap or press **Drop** to release a shape; **Restart** resets the board.
